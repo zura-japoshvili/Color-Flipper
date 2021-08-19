@@ -17,6 +17,7 @@ btn.addEventListener("click", function(){
     }
     color.textContent = hexcolor;
     bg.style.backgroundColor = hexcolor;
+    color.style.color = hexcolor;
     colorArr.push(hexcolor);
     console.log(colorArr);
     deleteTen();
